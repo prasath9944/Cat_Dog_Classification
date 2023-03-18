@@ -43,7 +43,7 @@
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 315865595366.dkr.ecr.us-east-1.amazonaws.com/simple-app
+    - Save the URI: 525367304031.dkr.ecr.ap-south-1.amazonaws.com/dogcat
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -73,12 +73,12 @@
 
 # 7. Setup github secrets:
 
-    AWS_ACCESS_KEY_ID=
+    AWS_ACCESS_KEY_ID=AKIAXUUSU35PRFWL42UW
 
-    AWS_SECRET_ACCESS_KEY=
+    AWS_SECRET_ACCESS_KEY=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
 
-    AWS_REGION = us-east-1
+    AWS_REGION = ap-south-1
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = demo>>  525367304031.dkr.ecr.ap-south-1.amazonaws.com
 
-    ECR_REPOSITORY_NAME = simple-app
+    ECR_REPOSITORY_NAME = dogcat
